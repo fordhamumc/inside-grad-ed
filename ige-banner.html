@@ -1,0 +1,40 @@
+<!-- Featured Image Banner -->
+
+<!-- Place <div> element below within page Rich Text widget:
+
+<div class="ige-featured-img"><img src="https://gse.news.fordham.edu/wp-content/uploads/2020/10/Inside-Grad-Ed-Featured-Image_min.jpg" alt="Girl holding rainbow drawing through window" /></div>
+
+-->
+
+<!-- Styles placed where accepted e.g. Theme Settings Custom CSS (remove <style> tags), Sidebar Custom HTML widget, or anywhere HTML/CSS is permitted. -->
+<style type="text/css">
+  .main>.row,
+  .main .post-wrap>.row {
+    overflow: visible;
+  }
+
+  .ige-featured-img {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 2000px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+
+  .ige-featured-img:before {
+    padding-top: 50%;
+    content: '';
+    display: block;
+  }
+
+  .ige-featured-img img {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    display: block;
+  }
+
+</style>
